@@ -16,8 +16,26 @@
         DRE: 120081378
 """
 
+from ArvoreAVL import ArvoreAVL
+
+
 def main() -> None:
-    pass
+    avl = ArvoreAVL.AVLTree()
+
+    avl.insert_node()
+
+    
+
+    
+
+
+
+
+
+
+
+
+
 
 
 
