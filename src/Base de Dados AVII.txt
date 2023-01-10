@@ -1,0 +1,37 @@
+UFRJ - Universidade Federal do Rio de Janeiro
+MAE015 - Tóp. Especiais em Engenharia de dados A: Estrutura de dados
+Autores:
+Nome: Rhuan Justo
+DRE: 118043398
+
+Nome: Davi Richards
+DRE: 119022078
+
+Nome: Sebastião Rodrigo
+DRE: 117099621
+
+Nome: Yuri Ferreira Melo
+DRE: 120081378
+
+Neste arquivo de texto, explicaremos como adquirimos a base de dados utilizada em
+nosso projeto.
+
+O professor recomendou que fosse utilizada uma base de dados muito grande para que
+a diferença entre a busca por força bruta e pela árvore AVL fosse perceptível.
+
+Deste modo, por meio do código "cria_bd_avl.py", criamos uma base de dados simples
+em .txt, chamada "bd_avl.txt", com 1000000 (um milhão) de dados, onde cada dado possui uma chave primária que
+representa um possível identificador de uma pessoa. Para que a chave primária fosse
+única, fizemos o seguinte: Tomamos um inteiro muito grande (123456789) e fizemos
+uma progressão aritmética de razão 420. Além dessa chave primária, também temos o dado de idade, que
+é um valor inteiro entre 18 e 60, bem como o dado de sexo, podendo ser uma string "M" ou
+"F".
+
+Esses dados estão separados por ";", de forma a possibilitar a fácil manipulação destes.
+
+Por meio de um simples comando do Python (enumerate), podemos adquirir o índice de
+cada um dos dados da base, isso será útil na aplicação do problema.
+
+Essa base de dados poderia ter sido mais diversificada, visto que queremos representar
+dados pessoais, porém, para fins de teste e estudo, a quantidade dos dados foi mais
+relevante do que a diversidade destes.

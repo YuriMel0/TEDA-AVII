@@ -1,0 +1,34 @@
+UFRJ - Universidade Federal do Rio de Janeiro
+MAE015 - Tóp. Especiais em Engenharia de dados A: Estrutura de dados
+Autores:
+Nome: Rhuan Justo
+DRE: 118043398
+
+Nome: Davi Richards
+DRE: 119022078
+
+Nome: Sebastião Rodrigo
+DRE: 117099621
+
+Nome: Yuri Ferreira Melo
+DRE: 120081378
+
+Neste arquivo de texto, explicaremos sobre os resultados alcançados pelo nosso projeto.
+
+No arquivo "AVIIEstDados.py", nós rodamos 3 funções principais.
+
+Primeiro, nós criamos a árvore AVL utilizando a base de dados "bd_avl.txt". Este
+foi o processo mais demorado, tomando cerca de 36.94 segundos em um computador com 
+16 GB de memória RAM e um i7 4790 3.6 GHz.
+
+Fizemos primeiramente a busca por força bruta por uma chave que estava
+presente na base de dados na posição 616189. Esta busca levou 0.48 segundos.
+
+Logo após, fizemos novamente a busca pela mesma chave que no caso da força bruta,
+porém desta vez o tempo foi de 2.50e-5 segundos.
+
+Uma diferença de 4 casas decimais, é um tempo muito considerável, caso levemos
+em consideração uma aplicação que necessite fazer uma quantidade imensa de buscas.
+
+
+

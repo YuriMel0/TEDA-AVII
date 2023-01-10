@@ -1,0 +1,25 @@
+UFRJ - Universidade Federal do Rio de Janeiro
+MAE015 - Tóp. Especiais em Engenharia de dados A: Estrutura de dados
+Autores:
+Nome: Rhuan Justo
+DRE: 118043398
+
+Nome: Davi Richards
+DRE: 119022078
+
+Nome: Sebastião Rodrigo
+DRE: 117099621
+
+Nome: Yuri Ferreira Melo
+DRE: 120081378
+
+Neste projeto entregue pelo nosso grupo, estamos testando e percebendo a diferença
+entre fazer buscas inteligentes e outras não inteligentes assim em bancos de dados
+muito grandes.
+
+Nossa avaliação se resume a um código principal chamado "AVIIEstDados.py", uma biblioteca
+onde está o código com a árvore AVL como uma classe, chamada "AVLTree.py", e uma base
+de dados chamada "bd_avl.txt".
+
+Em outros arquivos de texto apresentaremos com detalhes e clareza os resultados
+obtidos nesse projeto, bem como sobre a base de dados utilizada.
